@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity" >
+
+    <WebView
+	    android:id="@+id/mainWebView"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" >
+
+		<TextView
+			android:text="0"
+			android:textColor="#000000"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="330dp"
+			android:layout_y="1dp"
+			android:textSize="20sp"
+			android:id="@+id/rupees" />
+
+		<com.google.android.gms.ads.AdView
+			android:layout_x="5dp"
+			android:layout_y="450dp"
+			android:id="@+id/adView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+
+			ads:adSize="BANNER"
+			ads:adUnitId="@string/banner_ad_unit_id">
+		</com.google.android.gms.ads.AdView>
+		<Button
+			android:text=""
+			android:layout_width="25dp"
+			android:layout_height="20dp"
+			android:layout_x="290dp"
+			android:layout_y="4dp"
+			android:id="@+id/button"
+			android:visibility="visible"
+			android:background="@drawable/images" />
+		<TextView
+			android:text="TextView"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_x="230dp"
+			android:layout_y="-2dp"
+			android:layout_marginBottom="37dp"
+
+			android:textSize="20sp"
+
+			android:textColor="#000000"
+			android:id="@+id/timer_Value"
+			tools:text="00:00" />
+	</WebView>
+
+</LinearLayout>

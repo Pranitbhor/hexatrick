@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Hexatrick</string>
+    <string name="action_settings">Settings</string>
+    <string name="press_back_again_to_exit">Press back again to exit</string>
+
+    <string name="banner_ad_unit_id">ca-app-pub-8191492539071935/7462488805</string>
+
+</resources>

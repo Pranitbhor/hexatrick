@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "938133447325",
+    "firebase_url": "https://hexatrick.firebaseio.com",
+    "project_id": "hexatrick",
+    "storage_bucket": "hexatrick.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:938133447325:android:cbd3b6edd31bd70b",
+        "android_client_info": {
+          "package_name": "com.kurvam.hexatrick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "938133447325-qrcsgsim21e97m810ei7pjj29mleqfio.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1R4MpA3H_iWNb46tJoKxfUaA1zsXH3W8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
